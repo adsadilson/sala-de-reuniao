@@ -1,4 +1,4 @@
-package br.com.apssystem.saladereuniao.domain.entity;
+package br.com.apssystem.client.room.domain.entity;
 
 import java.time.LocalDate;
 
@@ -30,8 +30,10 @@ public class Room {
 
 	private LocalDate date;
 
-	private String startMour;
+	private String startHour;
 
 	private String endHour;
+	
+	private boolean active;
 
 }

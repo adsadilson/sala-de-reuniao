@@ -1,4 +1,4 @@
-package br.com.apssystem.saladereuniao.api.exception;
+package br.com.apssystem.client.room.api.exception;
 
 import java.util.ArrayList;
 import java.util.List;

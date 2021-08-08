@@ -1,4 +1,4 @@
-package br.com.apssystem.saladereuniao.domain.service;
+package br.com.apssystem.client.room.domain.service;
 
 import java.util.List;
 
@@ -7,10 +7,10 @@ import javax.transaction.Transactional;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
-import br.com.apssystem.saladereuniao.api.exception.EntidadeEmUsoException;
-import br.com.apssystem.saladereuniao.api.exception.NegocioException;
-import br.com.apssystem.saladereuniao.domain.entity.Room;
-import br.com.apssystem.saladereuniao.domain.repository.RoomRepository;
+import br.com.apssystem.client.room.api.exception.EntidadeEmUsoException;
+import br.com.apssystem.client.room.api.exception.NegocioException;
+import br.com.apssystem.client.room.domain.entity.Room;
+import br.com.apssystem.client.room.domain.repository.RoomRepository;
 import lombok.AllArgsConstructor;
 
 @Service
