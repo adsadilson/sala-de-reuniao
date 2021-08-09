@@ -53,7 +53,6 @@ public class DBService {
 		
 		roomRepository.saveAll(Arrays.asList(room,room1,room2,room3));
 		
-		
 	}
 	
 	// @formatter:on
