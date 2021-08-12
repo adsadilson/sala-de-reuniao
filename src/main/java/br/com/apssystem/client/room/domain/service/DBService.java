@@ -50,8 +50,36 @@ public class DBService {
 		room3.setStartHour("21:00");
 		room3.setEndHour("22:30");
 		room3.setActive(true);
+
+		Room room4 = new Room();
+		room4.setName("Instalando o MySQL");
+		room4.setDate(LocalDate.of(2021, 07, 5));
+		room4.setStartHour("19:00");
+		room4.setEndHour("21:00");
+		room4.setActive(true);
+
+		Room room5 = new Room();
+		room5.setName("A famosa chave primária");
+		room5.setDate(LocalDate.of(2021, 07, 5));
+		room5.setStartHour("15:00");
+		room5.setEndHour("17:00");
+		room5.setActive(true);
+
+		Room room6 = new Room();
+		room6.setName("Tipos primitivos");
+		room6.setDate(LocalDate.of(2021, 07, 5));
+		room6.setStartHour("10:00");
+		room6.setEndHour("11:00");
+		room6.setActive(true);
 		
-		roomRepository.saveAll(Arrays.asList(room,room1,room2,room3));
+		Room room7 = new Room();
+		room7.setName("A história do Java");
+		room7.setDate(LocalDate.of(2021, 07, 2));
+		room7.setStartHour("15:00");
+		room7.setEndHour("17:00");
+		room7.setActive(true);
+		
+		roomRepository.saveAll(Arrays.asList(room,room1,room2,room3,room4,room5,room6,room7));
 		
 	}
 	
